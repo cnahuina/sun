@@ -86,9 +86,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/plugins.js"></script>
     <!-- Active js -->
     <script src="js/active.js"></script>
-    <!-- Google Map js -->
+    <!-- Google Map js 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqH5-9jAkXdj3CALfla7sNAiTaTXeMbHs"></script>
-    <script src="js/map-active.js"></script>
+    <script src="js/map-active.js"></script>-->
 
 
 
