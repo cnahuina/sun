@@ -854,7 +854,7 @@ img {
         box-shadow: none;
     }
       .hover-effects input.btnStyle{
-        background-image: url(http://www.readeranswer.com/images/btn.png);
+        background-image: url('img/bg-img/btn.png');
         background-size: contain;
         background-position: center center;
         background-repeat: no-repeat;
@@ -1200,6 +1200,7 @@ textarea:focus ~ .highlight {
   display: inline-block;
   position: relative;
   right: 7px;
+  bottom: 12px;
   margin-left: 50px; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     #search-wrapper {

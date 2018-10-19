@@ -153,7 +153,7 @@ div#sib_embed_signup div.message_area button.close {
 
 
 div#sib_embed_signup .sib-container {
-    background: rgba(252, 252, 252, 1);
+    background: rgba(252, 252, 252, 0.1);
 }
 
 div#sib_embed_signup .sib-container h1 {
@@ -247,54 +247,53 @@ div#sib_embed_signup input[type=number] {
 <link rel="stylesheet" href="https://my.sendinblue.com/public/theme/version4/assets/styles/style.css" />
 <div id="sib_embed_signup" style="padding: 10px;">
 <div class="forms-builder-wrapper" style="position:relative;margin-left: auto;margin-right: auto;">
-<input type="hidden" id="sib_embed_signup_lang" value="es">
-<input type="hidden" id="sib_embed_invalid_email_message" value="Esta dirección de e-mail no es válida.">
-<input type="hidden" name="primary_type" id="primary_type" value="email">
-<div id="sib_loading_gif_area" style="position: absolute;z-index: 9999;display: none;">
-<img src="https://my.sendinblue.com/public/theme/version4/assets/images/loader_sblue.gif" style="display: block;margin-left: auto;margin-right: auto;position: relative;top: 40%;"> 
-</div> 
+    <input type="hidden" id="sib_embed_signup_lang" value="es">
+    <input type="hidden" id="sib_embed_invalid_email_message" value="Esta dirección de e-mail no es válida.">
+    <input type="hidden" name="primary_type" id="primary_type" value="email">
+    <div id="sib_loading_gif_area" style="position: absolute;z-index: 9999;display: none;">
+        <img src="https://my.sendinblue.com/public/theme/version4/assets/images/loader_sblue.gif" style="display: block;margin-left: auto;margin-right: auto;position: relative;top: 40%;"> 
+    </div> 
 <form class="description" id="theform" name="theform" action="https://my.sendinblue.com/users/subscribeembed/js_id/3qepd/id/1" onsubmit="return false;"> 
-<input type="hidden" name="js_id" id="js_id" value="3qepd">
-<input type="hidden" name="listid" id="listid" value="2">
-<input type="hidden" name="from_url" id="from_url" value="yes">
-<input type="hidden" name="hdn_email_txt" id="hdn_email_txt" value=""> 
-<div class="sib-container rounded ui-sortable" style="border-radius: 4px; position: relative; margin: 0px; text-align: left;  border-width: 0px !important; border-color: transparent !important;"> 
-<input type="hidden" name="req_hid" id="req_hid" value="" style="font-size: 13px;">
-<div class="header" style="padding:0 20px;"> 
-<h1 class="title editable" data-editfield="newsletter_name" style="font-weight: normal; text-align: left; font-size: 45px; margin-bottom: 2px; padding: 0px; margin-top: 0px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(35, 35, 35); display: none;">Mi Newsletter</h1>
-<h3 id="company-name" style="font-weight: normal; text-align: left; font-size: 25px; margin-bottom: 12px; padding: 0px; margin-top: 0px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(52, 52, 52); display: none;">Por</h3> </div> <div class="description editable" data-editfield="newsletter_description" style="padding: 0px 20px 15px; border-bottom: 1px solid rgb(204, 204, 204); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(52, 52, 52); font-size: 17px; display: none;">
-¿Qué tipo de contenido desea compartir con sus suscriptores? 
-</div>
-<div class="view-messages" style=" margin:5px 0;"> </div>
- <!-- an email as primary -->
-<div class="primary-group email-group forms-builder-group ui-sortable" style="">
-<div class="row mandatory-email" style="padding: 10px 20px; position: relative; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(52, 52, 52); font-size: 17px;"> 
- 
-<input type="text" name="email" id="email" value="" placeholder=" Ingrese su email para suscribirse" style="padding: 10px 2%; width: 90%; min-width: auto;">
-<div style="clear:both;"></div>
-<div class="hidden-btns">
-    <a class="btn move" href="#">
-        <i class="fa fa-arrows"></i>
-    </a>
-    <br> 
-<!--<a class="btn btn-danger delete" href="#"><i class="fa fa-trash-o fa-inverse"></i></a>--> 
-</div>
-</div> 
-</div> 
-<div class="captcha forms-builder-group" style="display: none;">
-<div class="row" style="font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(52, 52, 52); font-size: 17px; padding: 10px 20px;">
-<div id="gcaptcha" style="transform: scale(1); margin-left: 0px;">
-</div>
-</div>
-</div> 
-<!-- end of primary --> 
-<div class="byline" style="font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(52, 52, 52); font-weight: bold; font-size: 16px; text-align: center; display: block;">
-<button class="button editable " type="submit" data-editfield="subscribe" 
-style="font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(255, 255, 255);background-image: url(img/bg-img/btn.png);background-size:contain;padding:15px; display: inline-block; white-space: nowrap; min-height: 40px; margin: 0px 5px 0px 0px; text-decoration: none; text-transform: uppercase; text-align: center; font-weight: bold; font-style: normal; font-size: 14px; cursor: pointer; border: 0px; border-radius: 4px; vertical-align: top; height: auto; line-height: 150%;">
-Suscribirse</button>
-</div>
-<div style="clear:both;"></div>
-</div>
+    <input type="hidden" name="js_id" id="js_id" value="3qepd">
+    <input type="hidden" name="listid" id="listid" value="2">
+    <input type="hidden" name="from_url" id="from_url" value="yes">
+    <input type="hidden" name="hdn_email_txt" id="hdn_email_txt" value=""> 
+    <div class="sib-container rounded ui-sortable" style="border-radius: 4px; position: relative; margin: 0px; text-align: left;  border-width: 0px !important; border-color: transparent !important;"> 
+        <input type="hidden" name="req_hid" id="req_hid" value="" style="font-size: 13px;">
+    <div class="header" style="padding:0 20px;"> 
+        <h1 class="title editable" data-editfield="newsletter_name" style="font-weight: normal; text-align: left; font-size: 45px; margin-bottom: 2px; padding: 0px; margin-top: 0px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(35, 35, 35); display: none;">Mi Newsletter</h1>
+        <h3 id="company-name" style="font-weight: normal; text-align: left; font-size: 25px; margin-bottom: 12px; padding: 0px; margin-top: 0px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(52, 52, 52); display: none;">Por</h3> </div> <div class="description editable" data-editfield="newsletter_description" style="padding: 0px 20px 15px; border-bottom: 1px solid rgb(204, 204, 204); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(52, 52, 52); font-size: 17px; display: none;">
+        ¿Qué tipo de contenido desea compartir con sus suscriptores? 
+    </div>
+    <div class="view-messages" style=" margin:5px 0;"> </div>
+    <!-- an email as primary -->
+    <div class="primary-group email-group forms-builder-group ui-sortable" style="">
+        <div class="row mandatory-email" style="padding: 10px 20px; position: relative; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(52, 52, 52); font-size: 17px;"> 
+            <input type="text" name="email" id="email" value="" placeholder=" Ingrese su email para suscribirse" style="padding: 10px 2%; width: 90%; min-width: auto;">
+    <div style="clear:both;"></div>
+        <div class="hidden-btns">
+            <a class="btn move" href="#">
+                <i class="fa fa-arrows"></i>
+            </a>
+            <br> 
+        <!--<a class="btn btn-danger delete" href="#"><i class="fa fa-trash-o fa-inverse"></i></a>--> 
+        </div>
+    </div> 
+    </div> 
+    <div class="captcha forms-builder-group" style="display: none;">
+    <div class="row" style="font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(52, 52, 52); font-size: 17px; padding: 10px 20px;">
+    <div id="gcaptcha" style="transform: scale(1); margin-left: 0px;">
+    </div>
+    </div>
+    </div> 
+    <!-- end of primary --> 
+    <div class="byline" style="font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(52, 52, 52); font-weight: bold; font-size: 16px; text-align: center; display: block;">
+    <button class="button editable " type="submit" data-editfield="subscribe" 
+    style="font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(255, 255, 255);background-image: url(img/bg-img/btn.png);background-size:contain;background-repeat:no-repeat;padding:15px; display: inline-block; white-space: nowrap; min-height: 40px; margin: 0px 5px 0px 0px; text-decoration: none; text-transform: uppercase; text-align: center; font-weight: bold; font-style: normal; font-size: 14px; cursor: pointer; border: 0px; border-radius: 4px; vertical-align: top; height: auto; line-height: 150%;">
+    Suscribirse</button>
+    </div>
+    <div style="clear:both;"></div>
+    </div>
 </form>
 </div> 
 </div> 

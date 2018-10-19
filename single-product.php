@@ -45,12 +45,19 @@
 				<!--  -->
 				<div class="p-t-33 p-b-60">
 
-					<div class="flex-r-m flex-w p-t-10">
+					<div class="flex-l-m flex-w p-t-10">
 						<div class="w-size16 flex-m flex-w">
+							<div class="btn-addcart-product-detail m-r-10 size9 trans-0-4 m-t-10 m-b-10">
+								<!-- Button -->
+								<button class="flex-c-m sizefull bg1 bo-rad-23 hov1 s-text1 trans-0-4">
+									Compartir
+								</button>
+							</div>
+
 							<div class="btn-addcart-product-detail size9 trans-0-4 m-t-10 m-b-10">
 								<!-- Button -->
 								<button class="flex-c-m sizefull bg1 bo-rad-23 hov1 s-text1 trans-0-4">
-									Add to Cart
+									Consultar Ahora
 								</button>
 							</div>
 						</div>

@@ -59,7 +59,7 @@
     <br><br>
         <div class="containerfull">
             <div class="header" style="text-align:center;">
-                <h3>Recomendados para tí</h3>
+                <h3>Lo más nuevo</h3>
             </div>
             <div class="instagram-slides1 owl-carousel">
 

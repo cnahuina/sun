@@ -178,7 +178,7 @@
 
                             <!-- Nav Start -->
                             <div class="classynav">
-                                <ul>
+                                <ul >
                                     <li><a href="index.php">Inicio</a></li>
                                     <li><a href="nosotros.php">Nosotros</a></li>
                                     <li><a href="suntime-travel.php">Suntime Travel</a></li>

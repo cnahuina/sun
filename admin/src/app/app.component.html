@@ -1,0 +1,62 @@
+<nav class="navbar navbar-dark bg-dark">
+  <img width="50" alt="Angular Logo" src="http://www.centaurosperu.com/images/portfolio/suntime.png">
+  <a href="/" class="navbar-brand">Angular Simple Crud</a>
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 mt-4">
+      <ul class="list-group">
+        <li  
+        *ngFor="let entrada of entradaArray"
+        class="list-group-item list-group-item-action"
+        (click)="openForEdit(entrada)"
+        [class.active]="entrada == selectedEntrada"
+        >
+        <span class="badge badge-primary">{{entrada.id}}</span> 
+          {{entrada.title}} - {{entrada.auth}}
+        </li>
+      </ul>
+      <div class="card mt-4">
+        <div class="card-body">
+          <div class="card-title">
+            <h3>Insertar una nueva Entrada</h3>
+          </div>
+          <div class="form-group">
+            <input type="text" [(ngModel)]="selectedEntrada.title" placeholder=" Inserta Nueva entrada" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="text" [(ngModel)]="selectedEntrada.subtitle" placeholder=" Inserta Nueva subtitulo" class="form-control">
+          </div>
+          <div class="form-group">  
+            <input type="text" [(ngModel)]="selectedEntrada.description" placeholder=" Inserta Nueva descripcion" class="form-control">
+          </div>
+          <div class="form-group"> 
+            <input type="text" [(ngModel)]="selectedEntrada.photo" placeholder=" Inserta Nueva foto" class="form-control">
+          </div> 
+          <div class="form-group">
+            <input type="text" [(ngModel)]="selectedEntrada.auth" placeholder=" Inserta Nueva autor" class="form-control">
+          </div>
+          <div class="form-group">
+            <button (click)="addOrEdit()" class="btn btn-primary">
+              Enviar
+            </button>
+          </div>
+          <div class="form-group">
+            <button
+            *ngIf="selectedEntrada.id !== 0"
+            class="btn btn-danger"
+            (click)="delete()">
+              Delete
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+
+    </div>
+  </div>
+</div>
+
+
+  
