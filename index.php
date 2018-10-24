@@ -13,9 +13,11 @@
                         <div class="col-12">
                             <div class="slide-content text-center">
                                 <div class="post-tag">
-                                    <a href="#" data-animation="fadeInUp">lifestyle</a>
+                                    <a href="#" data-animation="fadeInUp">Sun time</a>
                                 </div>
-                                <h2 data-animation="fadeInUp" data-delay="250ms"><a href="single-post.html">Take a look at last night’s party!</a></h2>
+                                <h2 data-animation="fadeInUp" data-delay="250ms">
+                                <a href="#">PROXIMAMENTE</a>
+                                </h2>
                             </div>
                         </div>
                     </div>

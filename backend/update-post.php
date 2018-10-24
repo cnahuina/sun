@@ -29,12 +29,8 @@
             $id_usuario = $_POST['id_usuario'];
             $id_cat = $_POST['id_cat'];
 
-
-
-
                 $smt = $pdo->prepare('UPDATE  post SET titulo=:titulo, subtitulo=:subtitulo, desc_corta=:desc_corta, desc_larga=:desc_larga, keywords=:keywords , id_usuario=:id_usuario, id_cat=:id_cat  WHERE id_post = :id_post');
-
-                            
+             
                 $smt -> bindParam(':titulo' , $titulo);
                 $smt -> bindParam(':subtitulo' , $subtitulo);
                 $smt -> bindParam(':desc_corta' , $desc_corta);

@@ -11,8 +11,8 @@ include ("util/conexion.php");
       $desc_corta = $_POST['desc_corta'];
 
       $keywords = $_POST['keywords'];
-      $autor = $_POST['autor'];
-      $categoria = $_POST['categoria'];
+      $autor = $_POST['cbAutor'];
+      $categoria = $_POST['cbCategoria'];
 
       $img_post = $_FILES['img_post']['name'];
       $tmp_dir = $_FILES['img_post']['tmp_name'];

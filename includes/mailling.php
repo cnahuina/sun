@@ -153,7 +153,7 @@ div#sib_embed_signup div.message_area button.close {
 
 
 div#sib_embed_signup .sib-container {
-    background: rgba(252, 252, 252, 0.1);
+    background: transparent;
 }
 
 div#sib_embed_signup .sib-container h1 {
@@ -204,7 +204,7 @@ div#sib_embed_signup .sib-container .button {
 }
 
 div#sib_embed_signup .sib-container .button {
-    background: rgba(255,255,255,0.3);
+    background: #000000;
 }
 
 div#sib_embed_signup .forms-builder-wrapper {

@@ -1,4 +1,4 @@
-<?php include('includes/header.php');
+<?php 
 include('util/conexion.php');
 	$id_post = $_GET['id_post'];
 

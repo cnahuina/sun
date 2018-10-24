@@ -1,6 +1,7 @@
 <?php 
     include("includes/header.php");
     include("model/inserta_post.php");
+    include("util/consultas.php");
 ?>
 
 <div class="table-title">
@@ -29,11 +30,11 @@
         </div>
         <div class="form-group">
             <label>Descripción Larga:</label>
-            <textarea  name="desc_larga" id="desc_larga" class='form-control' maxlength="255" required></textarea>
+            <textarea  name="desc_larga" id="desc_larga" class='form-control'  required></textarea>
         </div>
         <div class="form-group">
             <label>Descripción Corta:</label>
-            <input type="text" name="desc_corta" id="desc_corta" class='form-control' maxlength="15" required >
+            <input type="text" name="desc_corta" id="desc_corta" class='form-control' required >
         </div>
         <div class="form-group">
             <label>Imagen:</label>
@@ -46,13 +47,24 @@
         
         </div>
         <div class="form-group">
-            <label>Autor:</label>
-            <input type="text" name="autor" id="autor" class='form-control' maxlength="64" required>
+            <label for="cbAutor">Autor</label>
+            <select name="cbAutor" id="cbAutor">
+                <?php foreach ($rowsAutor as $rowAu) {
+                    echo '<option value="'.$rowAu['id_usuario'].'">'.$rowAu['usuario'].'</option>';
+                }?>
+              
+            </select>
+           <!-- <input type="text" name="autor" id="autor" class='form-control' maxlength="64" required> -->
         
         </div>
         <div class="form-group">
-            <label>Categoria:</label>
-            <input type="text" name="categoria" id="categoria" class='form-control' maxlength="64" required>
+            <label for="cbCategoria">Categoria</label>
+            <select name="cbCategoria" id="cbCategoria">
+                <?php foreach ($rowsCat as $rowCat) {
+                    echo '<option value="'.$rowCat['id_cat'].'">'.$rowCat['categoria'].'</option>';
+                }?>
+            </select>
+            <!-- <input type="text" name="categoria" id="categoria" class='form-control' maxlength="64" required>-->
         
         </div>
         <div class="col-md-12 pull-right">

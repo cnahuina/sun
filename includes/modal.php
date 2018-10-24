@@ -39,7 +39,7 @@
 
                                                 <span class="qty-plus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty )) effect.value++;return false;"><i class="fa fa-plus" aria-hidden="true"></i></span>
                                             </div> -->
-                                            <a class="cart-submit" href="https://wa.me/51923718170?text=%20https://www.linio.com.pe/p/reloj-ana-logo-swiss-militaire-490-29-hombre-n13jj7%20I'm%20interested%20in%20your%20product%20for%20sale"><i class="fa fa-whatsapp"></i>  Solicitar Ahora</a>
+                                            <a class="cart-submit" target="__blank" href="https://wa.me/51923718170?text=%20https://www.linio.com.pe/p/reloj-ana-logo-swiss-militaire-490-29-hombre-n13jj7%20I'm%20interested%20in%20your%20product%20for%20sale"><i class="fa fa-whatsapp"></i>  Solicitar Ahora</a>
                                             <!-- Shared to facebook -->
                                             <div class="fb-share-button" style="padding:0 1%">
                                             <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.linio.com.pe%2Fp%2Freloj-ana-logo-swiss-militaire-490-29-hombre-n13jj7&layout=button&size=large&mobile_iframe=true&appId=630445934016844&width=99&height=34" width="99" height="34" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>

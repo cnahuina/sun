@@ -455,7 +455,7 @@ img {
 
 #breakingNewsTicker.ticker {
   width: 100%;
-  top: 0px;
+  top: -7px;
   height: 34px;
   text-align: left;
   position: relative;
@@ -491,8 +491,11 @@ img {
 .subscribe-newsletter-area .modal-content {
   border-radius: 0; }
   .subscribe-newsletter-area .modal-content .modal-body {
-    padding: 70px; }
+    padding: 0px; }
     @media only screen and (max-width: 767px) {
+    .top {
+      padding-top: 2px !important;
+    }
       .subscribe-newsletter-area .modal-content .modal-body {
         padding: 40px 30px; } }
     .subscribe-newsletter-area .modal-content .modal-body .title {
@@ -882,9 +885,9 @@ img {
     right: 0px;
     position: relative;
   }
-  .top {
-    padding-top: 2px !important;}
+
 }
+
 .instagram-feed-area {
   position: relative;
   z-index: 1;
@@ -959,6 +962,8 @@ img {
     height: 112px;
     border-radius: 50%; }
     @media only screen and (max-width: 767px) {
+      .top {
+        padding-top: 2px !important;}
       .blog-post-author .author-thumbnail {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 90px;

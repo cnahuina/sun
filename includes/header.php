@@ -79,7 +79,9 @@
                 <div class="modal-content">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     <div class="modal-body">
-                        <h5 class="title">Suscríbete</h5>
+                        <img src="img/core-img/cabecera.jpg" alt="Cabecera cumpleaños">
+                        <br><br>
+                        <h5 class="title" style="text-align:center">Suscríbete</h5>
                             <?php include("includes/mailling.php");?>
                     </div>
                 </div>
